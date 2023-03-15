@@ -14,6 +14,6 @@ namespace MemberRegistration.Entities.Concrete
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string TcNo { get; set; }
-        public string Email { get; set; }
+        public string Password { get; set; }
     }
 }

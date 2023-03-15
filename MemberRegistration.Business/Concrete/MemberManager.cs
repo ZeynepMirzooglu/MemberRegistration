@@ -35,6 +35,7 @@ namespace MemberRegistration.Business.Concrete
             {
                 throw new Exception("Kullanıcı doğrulaması geçerli değil.");
             }
+           
         }
 
         private void CheckIfMemberExists(Member member)

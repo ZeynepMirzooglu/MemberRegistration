@@ -29,7 +29,7 @@ namespace MemberRegistration.MvcWebUI.Controllers
         public ActionResult Add(Member member)
         {
             _memberService.Add(member);
-            return View(new MemberAddViewModel());
+            return Json("Giriş Başarılıdır!");
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols LinesOfCode="126" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+<Symbols LinesOfCode="173" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[DevFramework.Core]DevFramework.Core.Aspects.Postsharp.ValidationAspects.FluentValidationAspect">
-    <Instance Declaration="#2=M:[MemberRegistration.Business]MemberRegistration.Business.Concrete.MemberManager::Add(MemberRegistration.Entities.Concrete.Member)" Id="9c6ac1215673e8b3">
+    <Instance Declaration="#2=M:[MemberRegistration.Business]MemberRegistration.Business.Concrete.MemberManager::Add(MemberRegistration.Entities.Concrete.Member)" Id="9c6ac121a60cdb20">
       <Target>
         <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="0" />
       </Target>

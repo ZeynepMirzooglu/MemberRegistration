@@ -16,10 +16,10 @@ namespace MemberRegistration.Business.ValidationRules.FluentValidation
             RuleFor(m=>m.LastName).NotEmpty();
             RuleFor(m=>m.DateOfBirth).NotEmpty();
             RuleFor(m=>m.TcNo).NotEmpty();
-            RuleFor(m=>m.Email).NotEmpty();
+            RuleFor(m=>m.Password).NotEmpty();
 
             RuleFor(m => m.DateOfBirth).LessThan(DateTime.Now);
-            RuleFor(m => m.Email).EmailAddress();
+           
             RuleFor(m => m.TcNo).Length(11);
         }
     }
